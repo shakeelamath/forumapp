@@ -1,7 +1,7 @@
 import mysql from 'mysql';
 
 const pool = mysql.createPool({
-  connectionLimit: 10, // Adjust the limit according to your needs
+  connectionLimit: 10, 
   host: 'localhost',
   port: 3306,
   user: 'your_username',
