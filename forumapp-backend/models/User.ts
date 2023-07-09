@@ -5,8 +5,7 @@ export interface User {
   }
   
   export class UserModel {
-    private connection: any; // Adjust the type based on the MySQL library you are using
-  
+    private connection: any;
     constructor(connection: any) {
       this.connection = connection;
     }
